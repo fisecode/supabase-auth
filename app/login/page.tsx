@@ -94,7 +94,6 @@ export default function Login({
           className="px-4 py-2 mb-6 border rounded-md bg-inherit"
           name="first_name"
           placeholder="First Name"
-          required
         />
         <label className="text-md" htmlFor="last_name">
           Last Name
@@ -103,7 +102,6 @@ export default function Login({
           className="px-4 py-2 mb-6 border rounded-md bg-inherit"
           name="last_name"
           placeholder="Last Name"
-          required
         />
         <label className="text-md" htmlFor="email">
           Email
